@@ -1,16 +1,10 @@
 # AI-Project
-1.
-Referencing:
-https://github.com/npnl/ATLAS/
 
-
-
-https://www.nature.com/articles/s41597-022-01923-0
 
 
  Data Preparation
  
-MRI images from ATLAS referenced above contains about 300 images with thier corresponding masks in training folder. The images were trained using U-NET model.
+MRI images from ATLAS referenced below contains about 300 images with thier corresponding masks in training folder. The images were trained using U-NET model.
 
 Input: 3D .nii.gz images for T1-weighted MRIs and lesion masks.
 Output: Preprocessed 2D slices resized to (128, 128).
@@ -66,3 +60,11 @@ Input MRI slices.
 Ground truth masks.
 Predicted masks.
 Overlay predictions on input images for better insight.
+
+
+References:
+https://github.com/npnl/ATLAS/
+
+
+
+https://www.nature.com/articles/s41597-022-01923-0
