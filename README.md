@@ -8,6 +8,7 @@ MRI images from ATLAS referenced below contains about 300 images with thier corr
 
 Input: 3D .nii.gz images for T1-weighted MRIs and lesion masks.
 Output: Preprocessed 2D slices resized to (128, 128).
+
 Steps:
 
 Load .nii.gz images using nibabel.
@@ -59,6 +60,7 @@ Display:
 Input MRI slices.
 Ground truth masks.
 Predicted masks.
+AUC.
 Overlay predictions on input images for better insight.
 
 
